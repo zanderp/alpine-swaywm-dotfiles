@@ -1,4 +1,4 @@
-# 🌿 Sway-WM Dotfiles
+# 🌿 Alpine Sway-WM Dotfiles
 
 ## 🔥 System Information
 
@@ -103,5 +103,7 @@ Once everything is set up, restart your session or run:
 ```sh
 exec sway
 ```
+
+Please look over the `~/.config/sway/config` file so you can see the basic key bindings. Use MOD+ALT+R to reload sway to apply changes without restarting the session. 
 
 Enjoy your **minimalist but powerful** Wayland setup! 🚀
