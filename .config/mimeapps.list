@@ -1,0 +1,5 @@
+[Default Applications]
+text/x-csrc=foot.desktop
+
+[Added Associations]
+text/x-csrc=foot.desktop;

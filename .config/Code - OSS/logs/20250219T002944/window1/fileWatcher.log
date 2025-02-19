@@ -1,0 +1,2 @@
+2025-02-19 00:30:01.546 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/alexandru/.config/Code - OSS/logs/20250217T154855/window1/output_20250217T154900' failed: No such file or directory (EUNKNOWN) (path: /home/alexandru)
+2025-02-19 00:30:01.546 [error] [File Watcher (universal)] inotify_add_watch on '/home/alexandru/.config/Code - OSS/logs/20250217T154855/window1/output_20250217T154900' failed: No such file or directory

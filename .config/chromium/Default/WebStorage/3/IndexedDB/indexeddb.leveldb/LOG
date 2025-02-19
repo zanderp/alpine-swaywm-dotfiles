@@ -1,0 +1,6 @@
+2025/02/15-20:42:34.409 1788 Creating DB /home/alexandru/.config/chromium/Default/WebStorage/3/IndexedDB/indexeddb.leveldb since it was missing.
+2025/02/15-20:42:34.412 1788 Reusing MANIFEST /home/alexandru/.config/chromium/Default/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/02/15-20:55:55.418 1789 Level-0 table #5: started
+2025/02/15-20:55:55.426 1789 Level-0 table #5: 46121 bytes OK
+2025/02/15-20:55:55.431 1789 Delete type=0 #3
+2025/02/15-20:55:55.431 1789 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

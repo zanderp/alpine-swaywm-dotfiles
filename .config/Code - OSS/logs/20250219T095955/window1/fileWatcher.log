@@ -1,0 +1,2 @@
+2025-02-19 10:00:11.988 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/alexandru/.config/Code - OSS/logs/20250217T170602/window1/exthost/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/alexandru)
+2025-02-19 10:00:11.988 [error] [File Watcher (universal)] inotify_add_watch on '/home/alexandru/.config/Code - OSS/logs/20250217T170602/window1/exthost/vscode.github' failed: No such file or directory

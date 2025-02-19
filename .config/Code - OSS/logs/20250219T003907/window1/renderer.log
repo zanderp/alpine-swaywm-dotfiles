@@ -1,0 +1,8 @@
+2025-02-19 00:39:10.061 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-19 00:39:10.061 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-19 00:39:10.062 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-19 00:39:11.028 [info] Started local extension host with pid 5435.
+2025-02-19 00:39:14.667 [info] [perf] Render performance baseline is 39ms
+2025-02-19 00:39:17.324 [error] Timed out waiting for authentication provider to register
+2025-02-19 00:39:24.353 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/alexandru/.config/Code - OSS/logs/20250217T163004/window1/exthost/vscode.github-authentication' failed: No such file or directory (EUNKNOWN) (path: /home/alexandru)
+2025-02-19 00:39:24.356 [error] [File Watcher (universal)] inotify_add_watch on '/home/alexandru/.config/Code - OSS/logs/20250217T163004/window1/exthost/vscode.github-authentication' failed: No such file or directory

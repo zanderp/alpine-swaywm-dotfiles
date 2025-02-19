@@ -1,0 +1,35 @@
+#/bin/bash
+user_confdir="${XDG_CONFIG_HOME:-$HOME/.config}"
+#gnome_theme_name="$(gsettings get org.gnome.desktop.interface gtk-theme | sed "s/'//g")"
+gtk3_theme_name="$(grep -o '^gtk-theme-name=.\+$'  ~/.config/gtk-3.0/settings.ini | cut -d'=' -f 2)"
+gtk4_theme_name="$(grep -o '^gtk-theme-name=.\+$'  ~/.config/gtk-4.0/settings.ini | cut -d'=' -f 2)"
+
+xfconf-query -V >& /dev/null
+hasxfce=$?
+if ! ((hasxfce == 127)); then
+    xfce=true
+fi
+for dir in ${HOME}/.var/app/*; do
+    # Link files
+    flat_confdir3="${dir}/config/gtk-3.0"
+    flat_confdir4="${dir}/config/gtk-4.0"
+    mkdir -p "$flat_confdir3"
+    mkdir -p "$flat_confdir4"
+    ln -s "${user_confdir}/gtk-3.0/settings.ini" "${flat_confdir3}"/
+    ln -s "${user_confdir}/gtk-3.0/gtk.css" "${flat_confdir3}"/
+    ln -s "${user_confdir}/gtk-3.0/coclors.css" "${flat_confdir3}"/
+    ln -s "${user_confdir}/gtk-4.0/settings.ini" "${flat_confdir4}"/
+    ln -s "${user_confdir}/gtk-4.0/gtk.css" "${flat_confdir4}"/
+    ln -s "${user_confdir}/gtk-4.0/coclors.css" "${flat_confdir4}"/
+
+    # Set theme via dconf
+    flatpak info "${dir##*/}" >& /dev/null && \
+        flatpak run --command=bash<<<"gsettings set org.gnome.desktop.interface gtk-theme ${gtk4_theme_name:-$gtk3_theme_name}" "${dir##*/}"
+
+    # If XFCE copy xsettings file
+    if $xfce; then
+        flat_xfconfdir="${dir}/config/xfce4/xfconf/xfce-perchannel-xml"
+        mkdir -p "$flat_xfconfdir"
+        cp "${user_confdir}/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml" "$flat_xfconfdir"/
+    fi
+done

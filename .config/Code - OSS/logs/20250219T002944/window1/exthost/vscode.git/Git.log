@@ -1,0 +1,64 @@
+2025-02-19 00:29:50.018 [info] [main] Log level: Info
+2025-02-19 00:29:50.018 [info] [main] Validating found git in: "git"
+2025-02-19 00:29:50.018 [info] [main] Using git "2.47.2" from "git"
+2025-02-19 00:29:50.018 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-19 00:29:50.018 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-19 00:29:50.018 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.018 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-19 00:29:50.018 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.032 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-19 00:29:50.032 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.051 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-19 00:29:50.051 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.065 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-19 00:29:50.065 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.077 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-19 00:29:50.077 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.087 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-19 00:29:50.087 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.096 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-19 00:29:50.096 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.106 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-19 00:29:50.106 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.116 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-19 00:29:50.116 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.125 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-19 00:29:50.125 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.135 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-19 00:29:50.135 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.148 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-19 00:29:50.158 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-19 00:29:50.178 [info] [Model][openRepository] Opened repository: /home/alexandru/foot
+2025-02-19 00:29:50.208 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-19 00:29:50.208 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.209 [info] > git config --get commit.template [16ms]
+2025-02-19 00:29:50.237 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-19 00:29:50.237 [info] fatal: detected dubious ownership in repository at '/home/alexandru/swaywm-dotfiles'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/swaywm-dotfiles
+2025-02-19 00:29:50.240 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (1)
+2025-02-19 00:29:50.242 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-02-19 00:29:50.251 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/foot/.git/refs/remotes/origin/main'
+2025-02-19 00:29:50.253 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-19 00:29:50.275 [info] > git status -z -uall [11ms]
+2025-02-19 00:29:50.277 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-19 00:29:50.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-02-19 00:29:50.316 [info] > git config --get commit.template [12ms]
+2025-02-19 00:29:50.316 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-02-19 00:29:50.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [10ms]
+2025-02-19 00:29:50.367 [info] > git merge-base refs/heads/main refs/remotes/origin/main [24ms]
+2025-02-19 00:29:50.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2025-02-19 00:29:50.384 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/foot/.git/refs/remotes/origin/main'
+2025-02-19 00:29:50.386 [info] > git diff --name-status -z --diff-filter=ADMR 962ff1a5b6387bc5419e9788a773a080eea5f1e1...refs/remotes/origin/main [10ms]
+2025-02-19 00:29:50.387 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-02-19 00:29:50.409 [info] > git status -z -uall [14ms]
+2025-02-19 00:29:50.410 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-19 00:29:50.787 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-19 00:29:50.787 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:50.822 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-19 00:29:50.822 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:29:53.486 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-19 00:29:53.486 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 00:30:15.093 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-19 00:30:15.093 [info] fatal: not a git repository (or any of the parent directories): .git

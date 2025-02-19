@@ -1,0 +1,1077 @@
+2025-02-18 14:49:36.025 [info] [main] Log level: Info
+2025-02-18 14:49:36.025 [info] [main] Validating found git in: "git"
+2025-02-18 14:49:36.025 [info] [main] Using git "2.47.2" from "git"
+2025-02-18 14:49:36.025 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-18 14:49:36.025 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-18 14:49:36.025 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:36.025 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-18 14:49:36.025 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-18 14:49:36.025 [info] [Model][openRepository] Opened repository: /home/alexandru/Downloads/2/python-validity
+2025-02-18 14:49:36.038 [info] > git config --get commit.template [3ms]
+2025-02-18 14:49:36.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 14:49:36.144 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:49:36.146 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-02-18 14:49:36.178 [info] > git status -z -uall [23ms]
+2025-02-18 14:49:36.189 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2025-02-18 14:49:36.241 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2025-02-18 14:49:36.251 [info] > git rev-parse --show-toplevel [77ms]
+2025-02-18 14:49:36.251 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:36.261 [info] > git config --local branch.master.vscode-merge-base [11ms]
+2025-02-18 14:49:36.270 [info] > git config --get commit.template [30ms]
+2025-02-18 14:49:36.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2025-02-18 14:49:36.308 [info] > git rev-parse --show-toplevel [48ms]
+2025-02-18 14:49:36.308 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:36.573 [info] > git merge-base refs/heads/master refs/remotes/origin/master [292ms]
+2025-02-18 14:49:36.606 [info] > git diff --name-status -z --diff-filter=ADMR 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f...refs/remotes/origin/master [22ms]
+2025-02-18 14:49:36.607 [info] > git rev-parse --show-toplevel [35ms]
+2025-02-18 14:49:36.607 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:36.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [48ms]
+2025-02-18 14:49:36.636 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:49:36.636 [info] > git check-ignore -v -z --stdin [20ms]
+2025-02-18 14:49:36.638 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-18 14:49:36.638 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:36.647 [info] > git rev-parse refs/remotes/origin/master [12ms]
+2025-02-18 14:49:36.666 [info] > git rev-parse --show-toplevel [20ms]
+2025-02-18 14:49:36.666 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:36.679 [info] > git status -z -uall [23ms]
+2025-02-18 14:49:36.680 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2025-02-18 14:49:36.683 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-18 14:49:36.683 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:36.773 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-18 14:49:36.773 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:36.788 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-18 14:49:36.788 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:37.034 [info] > git rev-parse --show-toplevel [237ms]
+2025-02-18 14:49:37.034 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:37.052 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 14:49:37.052 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:37.071 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-18 14:49:37.071 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Tokyonight-GTK-Theme'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Tokyonight-GTK-Theme
+2025-02-18 14:49:37.102 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-18 14:49:37.116 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2025-02-18 14:49:37.125 [info] [Model][openRepository] Opened repository: /home/alexandru/foot
+2025-02-18 14:49:37.148 [info] > git config --get commit.template [12ms]
+2025-02-18 14:49:37.149 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-18 14:49:37.171 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-02-18 14:49:37.177 [info] [Model][openRepository] Opened repository: /home/alexandru/open-fprintd
+2025-02-18 14:49:37.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-02-18 14:49:37.203 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/foot/.git/refs/remotes/origin/main'
+2025-02-18 14:49:37.204 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-18 14:49:37.204 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:37.204 [info] > git config --get commit.template [17ms]
+2025-02-18 14:49:37.213 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2025-02-18 14:49:37.245 [info] > git status -z -uall [24ms]
+2025-02-18 14:49:37.246 [info] > git rev-parse --show-toplevel [33ms]
+2025-02-18 14:49:37.246 [info] fatal: detected dubious ownership in repository at '/home/alexandru/swaywm-dotfiles'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/swaywm-dotfiles
+2025-02-18 14:49:37.251 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (2)
+2025-02-18 14:49:37.275 [info] > git show --textconv :validity-sensors-tools [14ms]
+2025-02-18 14:49:37.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [31ms]
+2025-02-18 14:49:37.275 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [42ms]
+2025-02-18 14:49:37.310 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 14:49:37.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2025-02-18 14:49:37.330 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [56ms]
+2025-02-18 14:49:37.349 [info] > git cat-file -s 35571650abb61df8837f373a0b0b4aee7115d43b [9ms]
+2025-02-18 14:49:37.350 [info] > git config --local branch.main.vscode-merge-base [20ms]
+2025-02-18 14:49:37.359 [info] > git config --get commit.template [41ms]
+2025-02-18 14:49:37.359 [info] > git rev-parse refs/remotes/origin/master [49ms]
+2025-02-18 14:49:37.377 [info] > git rev-parse --show-toplevel [75ms]
+2025-02-18 14:49:37.377 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:37.389 [info] > git status -z -uall [22ms]
+2025-02-18 14:49:37.390 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-02-18 14:49:37.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [49ms]
+2025-02-18 14:49:37.460 [info] > git merge-base refs/heads/main refs/remotes/origin/main [44ms]
+2025-02-18 14:49:37.470 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [67ms]
+2025-02-18 14:49:37.482 [info] > git rev-parse --show-toplevel [92ms]
+2025-02-18 14:49:37.482 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 14:49:37.484 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2025-02-18 14:49:37.493 [info] > git diff --name-status -z --diff-filter=ADMR 962ff1a5b6387bc5419e9788a773a080eea5f1e1...refs/remotes/origin/main [22ms]
+2025-02-18 14:49:37.493 [info] > git config --get commit.template [39ms]
+2025-02-18 14:49:37.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [49ms]
+2025-02-18 14:49:37.496 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [65ms]
+2025-02-18 14:49:37.511 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/foot/.git/refs/remotes/origin/main'
+2025-02-18 14:49:37.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [20ms]
+2025-02-18 14:49:37.532 [info] > git rev-parse refs/remotes/origin/main [21ms]
+2025-02-18 14:49:37.552 [info] > git status -z -uall [11ms]
+2025-02-18 14:49:37.552 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2025-02-18 14:49:37.553 [info] > git merge-base refs/heads/master refs/remotes/origin/master [32ms]
+2025-02-18 14:49:37.571 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 14:49:37.572 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+2025-02-18 14:49:37.577 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2025-02-18 14:49:37.595 [info] > git diff --name-status -z --diff-filter=ADMR c26b46dcf2a681062118f0d8d7b0589a880afbee...refs/remotes/origin/master [32ms]
+2025-02-18 14:49:37.597 [info] > git status -z -uall [11ms]
+2025-02-18 14:49:37.598 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 14:49:37.757 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-18 14:49:45.210 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-18 14:49:46.884 [info] > git show --textconv :proto9x/blobs.py [8ms]
+2025-02-18 14:49:46.885 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs.py [2ms]
+2025-02-18 14:49:46.893 [info] > git cat-file -s 2de6c48bb53e160dc2f64897a72d1586d5222694 [1ms]
+2025-02-18 14:50:04.442 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs.py [27ms]
+2025-02-18 14:50:12.070 [info] > git config --get commit.template [22ms]
+2025-02-18 14:50:12.073 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 14:50:12.093 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:50:12.097 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-02-18 14:50:12.150 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 14:50:12.172 [info] > git status -z -uall [54ms]
+2025-02-18 14:50:12.879 [info] > git show --textconv :validity-sensors-tools [19ms]
+2025-02-18 14:50:12.882 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [4ms]
+2025-02-18 14:50:12.903 [info] > git cat-file -s 35571650abb61df8837f373a0b0b4aee7115d43b [5ms]
+2025-02-18 14:50:13.122 [info] > git check-ignore -v -z --stdin [24ms]
+2025-02-18 14:50:13.125 [info] > git check-ignore -v -z --stdin [6ms]
+2025-02-18 14:51:31.244 [info] > git config --get commit.template [69ms]
+2025-02-18 14:51:31.252 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-02-18 14:51:31.292 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:51:31.296 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 14:51:31.347 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-18 14:51:31.356 [info] > git status -z -uall [43ms]
+2025-02-18 14:51:37.872 [info] > git show --textconv :proto9x/init_flash.py [12ms]
+2025-02-18 14:51:37.873 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/init_flash.py [3ms]
+2025-02-18 14:51:37.883 [info] > git cat-file -s 25e7d4b01497053ce055e5a5f701d184d4b50738 [2ms]
+2025-02-18 14:52:19.705 [info] > git show --textconv :proto9x/upload_fwext.py [20ms]
+2025-02-18 14:52:19.708 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/upload_fwext.py [6ms]
+2025-02-18 14:52:19.730 [info] > git cat-file -s 0ba3aef7916b0cbe692c7226ddf96bf7bf5b043a [7ms]
+2025-02-18 14:52:25.951 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/proto9x/upload_fwext.py [18ms]
+2025-02-18 14:52:38.721 [info] > git show --textconv :validity-sensors-tools [13ms]
+2025-02-18 14:52:38.722 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [2ms]
+2025-02-18 14:52:38.734 [info] > git cat-file -s 35571650abb61df8837f373a0b0b4aee7115d43b [2ms]
+2025-02-18 14:52:46.446 [info] > git show --textconv :proto9x/blobs.py [10ms]
+2025-02-18 14:52:46.447 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs.py [2ms]
+2025-02-18 14:52:46.459 [info] > git cat-file -s 2de6c48bb53e160dc2f64897a72d1586d5222694 [2ms]
+2025-02-18 14:52:53.032 [info] > git show --textconv :proto9x/upload_fwext.py [22ms]
+2025-02-18 14:52:53.035 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/upload_fwext.py [5ms]
+2025-02-18 14:52:53.058 [info] > git cat-file -s 0ba3aef7916b0cbe692c7226ddf96bf7bf5b043a [5ms]
+2025-02-18 14:52:59.018 [info] > git config --get commit.template [22ms]
+2025-02-18 14:52:59.021 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 14:52:59.041 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:52:59.045 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 14:52:59.090 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 14:52:59.103 [info] > git status -z -uall [39ms]
+2025-02-18 14:53:13.078 [info] > git config --get commit.template [22ms]
+2025-02-18 14:53:13.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 14:53:13.103 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:53:13.107 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 14:53:13.162 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-02-18 14:53:13.172 [info] > git status -z -uall [45ms]
+2025-02-18 14:53:52.143 [info] > git config --get commit.template [1ms]
+2025-02-18 14:53:52.164 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 14:53:52.178 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:53:52.179 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 14:53:52.222 [info] > git status -z -uall [26ms]
+2025-02-18 14:53:52.229 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+2025-02-18 14:53:55.168 [info] > git show --textconv :proto9x/init_flash.py [22ms]
+2025-02-18 14:53:55.172 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/init_flash.py [7ms]
+2025-02-18 14:53:55.194 [info] > git cat-file -s 25e7d4b01497053ce055e5a5f701d184d4b50738 [5ms]
+2025-02-18 14:54:00.678 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/proto9x/init_flash.py [31ms]
+2025-02-18 14:54:13.741 [info] > git show --textconv :proto9x/blobs_90.py [22ms]
+2025-02-18 14:54:13.745 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_90.py [7ms]
+2025-02-18 14:54:13.770 [info] > git cat-file -s 222fedf80ceb5f50d67d0dbac66a1a1966303152 [6ms]
+2025-02-18 14:54:19.823 [info] > git show --textconv :proto9x/blobs_97.py [25ms]
+2025-02-18 14:54:19.828 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_97.py [9ms]
+2025-02-18 14:54:19.863 [info] > git cat-file -s 28ee9986d012b6bdf5c4804a4ad47eed77030d36 [4ms]
+2025-02-18 14:58:08.580 [info] > git config --get commit.template [12ms]
+2025-02-18 14:58:08.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 14:58:08.592 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:58:08.593 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 14:58:08.614 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 14:58:08.619 [info] > git status -z -uall [17ms]
+2025-02-18 14:58:29.726 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-18 14:58:59.306 [info] > git config --get commit.template [19ms]
+2025-02-18 14:58:59.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 14:58:59.323 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:58:59.326 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-02-18 14:58:59.361 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 14:58:59.368 [info] > git status -z -uall [29ms]
+2025-02-18 14:59:05.562 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-18 14:59:07.581 [info] > git show --textconv :extractions/6_07f_lenovo_mis_qm.xpfwext [11ms]
+2025-02-18 14:59:07.583 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/extractions/6_07f_lenovo_mis_qm.xpfwext [3ms]
+2025-02-18 14:59:22.851 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/extractions/6_07f_lenovo_mis_qm.xpfwext [2ms]
+2025-02-18 14:59:22.852 [info] fatal: no such path extractions/6_07f_lenovo_mis_qm.xpfwext in 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f
+2025-02-18 14:59:48.022 [info] > git check-ignore -v -z --stdin [5ms]
+2025-02-18 14:59:55.242 [info] > git show --textconv :proto9x/upload_fwext.py [12ms]
+2025-02-18 14:59:55.244 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/upload_fwext.py [4ms]
+2025-02-18 14:59:55.255 [info] > git cat-file -s 0ba3aef7916b0cbe692c7226ddf96bf7bf5b043a [3ms]
+2025-02-18 15:02:34.417 [info] > git show --textconv :proto9x/blobs_9d.py [21ms]
+2025-02-18 15:02:34.420 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_9d.py [6ms]
+2025-02-18 15:02:34.642 [info] > git check-ignore -v -z --stdin [3ms]
+2025-02-18 15:02:35.166 [info] > git config --get commit.template [22ms]
+2025-02-18 15:02:35.171 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 15:02:35.191 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:02:35.195 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-02-18 15:02:35.248 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-02-18 15:02:35.263 [info] > git status -z -uall [48ms]
+2025-02-18 15:02:35.806 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_9d.py [5ms]
+2025-02-18 15:02:35.806 [info] fatal: no such path proto9x/blobs_9d.py in 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f
+2025-02-18 15:02:39.699 [info] > git show --textconv :proto9x/upload_fwext.py [22ms]
+2025-02-18 15:02:39.701 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/upload_fwext.py [4ms]
+2025-02-18 15:02:39.724 [info] > git cat-file -s 0ba3aef7916b0cbe692c7226ddf96bf7bf5b043a [5ms]
+2025-02-18 15:02:40.351 [info] > git config --get commit.template [24ms]
+2025-02-18 15:02:40.355 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 15:02:40.374 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:02:40.378 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 15:02:40.423 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 15:02:40.438 [info] > git status -z -uall [41ms]
+2025-02-18 15:02:51.666 [info] > git config --get commit.template [24ms]
+2025-02-18 15:02:51.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 15:02:51.690 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:02:51.694 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 15:02:51.743 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 15:02:51.761 [info] > git status -z -uall [45ms]
+2025-02-18 15:02:53.159 [info] > git show --textconv :proto9x/blobs.py [26ms]
+2025-02-18 15:02:53.163 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs.py [8ms]
+2025-02-18 15:02:53.191 [info] > git cat-file -s 2de6c48bb53e160dc2f64897a72d1586d5222694 [5ms]
+2025-02-18 15:03:01.715 [info] > git config --get commit.template [21ms]
+2025-02-18 15:03:01.718 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 15:03:01.736 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:03:01.740 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 15:03:01.779 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 15:03:01.794 [info] > git status -z -uall [39ms]
+2025-02-18 15:03:50.003 [info] > git config --get commit.template [22ms]
+2025-02-18 15:03:50.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-02-18 15:03:50.031 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:03:50.035 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-02-18 15:03:50.068 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 15:03:50.072 [info] > git status -z -uall [25ms]
+2025-02-18 15:03:56.006 [info] > git show --textconv :proto9x/init_flash.py [29ms]
+2025-02-18 15:03:56.009 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/init_flash.py [6ms]
+2025-02-18 15:03:56.033 [info] > git cat-file -s 25e7d4b01497053ce055e5a5f701d184d4b50738 [5ms]
+2025-02-18 15:11:16.041 [info] > git rev-parse --show-toplevel [63ms]
+2025-02-18 15:11:16.041 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:12:13.587 [info] > git show --textconv :proto9x/init_flash.py [13ms]
+2025-02-18 15:12:13.588 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/init_flash.py [3ms]
+2025-02-18 15:12:13.602 [info] > git cat-file -s 25e7d4b01497053ce055e5a5f701d184d4b50738 [3ms]
+2025-02-18 15:12:21.313 [info] > git config --get commit.template [21ms]
+2025-02-18 15:12:21.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 15:12:21.334 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:12:21.338 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 15:12:21.381 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 15:12:21.396 [info] > git status -z -uall [41ms]
+2025-02-18 15:13:26.442 [info] > git config --get commit.template [26ms]
+2025-02-18 15:13:26.446 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-02-18 15:13:26.469 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:13:26.473 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2025-02-18 15:13:26.508 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-18 15:13:26.514 [info] > git status -z -uall [22ms]
+2025-02-18 15:14:37.776 [info] > git show --textconv :setup.py [28ms]
+2025-02-18 15:14:37.780 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/setup.py [8ms]
+2025-02-18 15:14:37.804 [info] > git cat-file -s 0bd1606c6b0ce90e5fcbd6291ff696c7e606da26 [6ms]
+2025-02-18 15:14:38.883 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/setup.py [6ms]
+2025-02-18 15:14:43.831 [info] > git config --get commit.template [21ms]
+2025-02-18 15:14:43.834 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 15:14:43.852 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:14:43.856 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 15:14:43.908 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 15:14:43.926 [info] > git status -z -uall [52ms]
+2025-02-18 15:15:17.383 [info] > git config --get commit.template [21ms]
+2025-02-18 15:15:17.385 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-02-18 15:15:17.396 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:15:17.399 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:15:17.423 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:15:17.432 [info] > git status -z -uall [22ms]
+2025-02-18 15:15:22.501 [info] > git config --get commit.template [24ms]
+2025-02-18 15:15:22.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 15:15:22.526 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:15:22.530 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2025-02-18 15:15:22.576 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 15:15:22.595 [info] > git status -z -uall [46ms]
+2025-02-18 15:15:29.700 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:15:29.701 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:15:52.977 [info] > git show --textconv :proto9x/flash.py [11ms]
+2025-02-18 15:15:52.979 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/flash.py [3ms]
+2025-02-18 15:15:52.989 [info] > git cat-file -s 7c79a2ca0fe399d8c676323bec97a64d14a83e50 [2ms]
+2025-02-18 15:15:53.584 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/proto9x/flash.py [19ms]
+2025-02-18 15:16:20.367 [info] > git config --get commit.template [19ms]
+2025-02-18 15:16:20.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 15:16:20.389 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:16:20.393 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2025-02-18 15:16:20.446 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-18 15:16:20.465 [info] > git status -z -uall [49ms]
+2025-02-18 15:16:48.566 [info] > git config --get commit.template [14ms]
+2025-02-18 15:16:48.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 15:16:48.578 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:16:48.580 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:16:48.603 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 15:16:48.610 [info] > git status -z -uall [20ms]
+2025-02-18 15:16:54.949 [info] > git config --get commit.template [23ms]
+2025-02-18 15:16:54.953 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 15:16:54.972 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:16:54.976 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 15:16:55.030 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-18 15:16:55.050 [info] > git status -z -uall [54ms]
+2025-02-18 15:16:55.810 [info] > git show --textconv :proto9x/init_flash.py [10ms]
+2025-02-18 15:16:55.811 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/init_flash.py [2ms]
+2025-02-18 15:16:55.822 [info] > git cat-file -s 25e7d4b01497053ce055e5a5f701d184d4b50738 [2ms]
+2025-02-18 15:17:12.296 [info] > git show --textconv :proto9x/flash.py [14ms]
+2025-02-18 15:17:12.298 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/flash.py [3ms]
+2025-02-18 15:17:12.312 [info] > git cat-file -s 7c79a2ca0fe399d8c676323bec97a64d14a83e50 [3ms]
+2025-02-18 15:17:30.703 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 15:17:30.703 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:17:46.834 [info] > git show --textconv :proto9x/flash.py [12ms]
+2025-02-18 15:17:46.835 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/flash.py [2ms]
+2025-02-18 15:17:46.848 [info] > git cat-file -s 7c79a2ca0fe399d8c676323bec97a64d14a83e50 [2ms]
+2025-02-18 15:17:49.540 [info] > git config --get commit.template [24ms]
+2025-02-18 15:17:49.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-02-18 15:17:49.559 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:17:49.563 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 15:17:49.605 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 15:17:49.623 [info] > git status -z -uall [43ms]
+2025-02-18 15:18:10.717 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 15:18:10.717 [info] > git config --get commit.template [40ms]
+2025-02-18 15:18:10.745 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:18:10.749 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 15:18:10.819 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-18 15:18:10.842 [info] > git status -z -uall [69ms]
+2025-02-18 15:18:15.234 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:18:15.234 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:19:12.685 [info] > git show --textconv :proto9x/sensor.py [11ms]
+2025-02-18 15:19:12.686 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/sensor.py [3ms]
+2025-02-18 15:19:12.697 [info] > git cat-file -s 4754ddb11ea573b44b94b90a990267604d369d16 [2ms]
+2025-02-18 15:19:25.497 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/proto9x/sensor.py [23ms]
+2025-02-18 15:19:27.961 [info] > git config --get commit.template [24ms]
+2025-02-18 15:19:27.965 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 15:19:27.985 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:19:27.989 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 15:19:28.034 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 15:19:28.056 [info] > git status -z -uall [48ms]
+2025-02-18 15:22:59.519 [info] > git config --get commit.template [8ms]
+2025-02-18 15:22:59.520 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:22:59.527 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:22:59.528 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:22:59.545 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 15:22:59.553 [info] > git status -z -uall [18ms]
+2025-02-18 15:23:02.101 [info] > git show --textconv :proto9x/tls.py [13ms]
+2025-02-18 15:23:02.103 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/tls.py [3ms]
+2025-02-18 15:23:02.115 [info] > git cat-file -s e1c7759030304cef1bb6c9688a8f0f2b9d45f783 [2ms]
+2025-02-18 15:23:51.351 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:23:51.351 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:24:09.005 [info] > git show --textconv :proto9x/tls.py [9ms]
+2025-02-18 15:24:09.007 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/tls.py [1ms]
+2025-02-18 15:24:09.016 [info] > git cat-file -s e1c7759030304cef1bb6c9688a8f0f2b9d45f783 [2ms]
+2025-02-18 15:24:10.794 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/proto9x/tls.py [14ms]
+2025-02-18 15:24:50.252 [info] > git config --get commit.template [9ms]
+2025-02-18 15:24:50.253 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:24:50.261 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:24:50.262 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:24:50.279 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:24:50.286 [info] > git status -z -uall [17ms]
+2025-02-18 15:25:30.238 [info] > git config --get commit.template [8ms]
+2025-02-18 15:25:30.240 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 15:25:30.248 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:25:30.249 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:25:30.267 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:25:30.279 [info] > git status -z -uall [22ms]
+2025-02-18 15:25:36.848 [info] > git show --textconv :validity-sensors-tools [8ms]
+2025-02-18 15:25:36.849 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [2ms]
+2025-02-18 15:25:36.857 [info] > git cat-file -s 35571650abb61df8837f373a0b0b4aee7115d43b [1ms]
+2025-02-18 15:25:47.042 [info] > git show --textconv :proto9x/init_flash.py [7ms]
+2025-02-18 15:25:47.043 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/init_flash.py [2ms]
+2025-02-18 15:25:47.052 [info] > git cat-file -s 25e7d4b01497053ce055e5a5f701d184d4b50738 [2ms]
+2025-02-18 15:25:50.720 [info] > git show --textconv :proto9x/flash.py [10ms]
+2025-02-18 15:25:50.721 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/flash.py [2ms]
+2025-02-18 15:25:50.730 [info] > git cat-file -s 7c79a2ca0fe399d8c676323bec97a64d14a83e50 [2ms]
+2025-02-18 15:26:05.173 [info] > git show --textconv :validity-sensors-tools [9ms]
+2025-02-18 15:26:05.174 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [2ms]
+2025-02-18 15:26:05.257 [info] > git cat-file -s 35571650abb61df8837f373a0b0b4aee7115d43b [6ms]
+2025-02-18 15:26:20.902 [info] > git config --get commit.template [9ms]
+2025-02-18 15:26:20.904 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:26:20.910 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:26:20.912 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:26:20.927 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:26:20.932 [info] > git status -z -uall [14ms]
+2025-02-18 15:26:29.748 [info] > git config --get commit.template [9ms]
+2025-02-18 15:26:29.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:26:29.756 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:26:29.757 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:26:29.773 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:26:29.778 [info] > git status -z -uall [13ms]
+2025-02-18 15:27:23.995 [info] > git config --get commit.template [9ms]
+2025-02-18 15:27:23.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:27:24.005 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:27:24.007 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:27:24.025 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:27:24.028 [info] > git status -z -uall [13ms]
+2025-02-18 15:27:27.994 [info] > git show --textconv :proto9x/upload_fwext.py [6ms]
+2025-02-18 15:27:27.994 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/upload_fwext.py [1ms]
+2025-02-18 15:27:28.002 [info] > git cat-file -s 0ba3aef7916b0cbe692c7226ddf96bf7bf5b043a [1ms]
+2025-02-18 15:27:53.930 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:27:53.930 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:28:20.020 [info] > git show --textconv :proto9x/upload_fwext.py [8ms]
+2025-02-18 15:28:20.021 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/upload_fwext.py [2ms]
+2025-02-18 15:28:20.030 [info] > git cat-file -s 0ba3aef7916b0cbe692c7226ddf96bf7bf5b043a [2ms]
+2025-02-18 15:28:28.495 [info] > git config --get commit.template [10ms]
+2025-02-18 15:28:28.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:28:28.503 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:28:28.504 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:28:28.520 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:28:28.525 [info] > git status -z -uall [14ms]
+2025-02-18 15:28:56.707 [info] > git config --get commit.template [10ms]
+2025-02-18 15:28:56.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:28:56.716 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:28:56.718 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:28:56.735 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:28:56.740 [info] > git status -z -uall [15ms]
+2025-02-18 15:29:01.725 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:29:01.725 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:29:25.325 [info] > git show --textconv :proto9x/upload_fwext.py [8ms]
+2025-02-18 15:29:25.326 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/upload_fwext.py [2ms]
+2025-02-18 15:29:25.333 [info] > git cat-file -s 0ba3aef7916b0cbe692c7226ddf96bf7bf5b043a [1ms]
+2025-02-18 15:29:46.650 [info] > git config --get commit.template [10ms]
+2025-02-18 15:29:46.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 15:29:46.661 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:29:46.663 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:29:46.685 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:29:46.690 [info] > git status -z -uall [17ms]
+2025-02-18 15:30:12.140 [info] > git config --get commit.template [11ms]
+2025-02-18 15:30:12.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 15:30:12.150 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:30:12.151 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:30:12.168 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:30:12.172 [info] > git status -z -uall [14ms]
+2025-02-18 15:30:18.544 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:30:18.544 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:30:41.965 [info] > git show --textconv :proto9x/upload_fwext.py [9ms]
+2025-02-18 15:30:41.966 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/upload_fwext.py [2ms]
+2025-02-18 15:30:41.975 [info] > git cat-file -s 0ba3aef7916b0cbe692c7226ddf96bf7bf5b043a [1ms]
+2025-02-18 15:30:53.035 [info] > git config --get commit.template [1ms]
+2025-02-18 15:30:53.046 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:30:53.053 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:30:53.054 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:30:53.069 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:30:53.074 [info] > git status -z -uall [14ms]
+2025-02-18 15:31:12.324 [info] > git config --get commit.template [9ms]
+2025-02-18 15:31:12.326 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:31:12.333 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:31:12.335 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:31:12.352 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:31:12.357 [info] > git status -z -uall [14ms]
+2025-02-18 15:31:14.572 [info] > git show --textconv :proto9x/usb.py [12ms]
+2025-02-18 15:31:14.573 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/usb.py [2ms]
+2025-02-18 15:31:14.585 [info] > git cat-file -s 7bdfed3bbe11e64ccacc6aa40e2b10293bd5ddf4 [3ms]
+2025-02-18 15:31:20.515 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-18 15:31:20.515 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:31:42.297 [info] > git show --textconv :proto9x/upload_fwext.py [8ms]
+2025-02-18 15:31:42.300 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/upload_fwext.py [4ms]
+2025-02-18 15:31:42.308 [info] > git cat-file -s 0ba3aef7916b0cbe692c7226ddf96bf7bf5b043a [2ms]
+2025-02-18 15:31:44.421 [info] > git show --textconv :proto9x/usb.py [11ms]
+2025-02-18 15:31:44.422 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/usb.py [2ms]
+2025-02-18 15:31:44.433 [info] > git cat-file -s 7bdfed3bbe11e64ccacc6aa40e2b10293bd5ddf4 [2ms]
+2025-02-18 15:31:46.824 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/proto9x/usb.py [10ms]
+2025-02-18 15:31:49.245 [info] > git config --get commit.template [7ms]
+2025-02-18 15:31:49.246 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:31:49.253 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:31:49.254 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:31:49.270 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:31:49.276 [info] > git status -z -uall [15ms]
+2025-02-18 15:32:09.067 [info] > git config --get commit.template [9ms]
+2025-02-18 15:32:09.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 15:32:09.077 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:32:09.080 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:32:09.097 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:32:09.103 [info] > git status -z -uall [16ms]
+2025-02-18 15:32:14.162 [info] > git config --get commit.template [24ms]
+2025-02-18 15:32:14.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 15:32:14.184 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:32:14.188 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 15:32:14.224 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:32:14.230 [info] > git status -z -uall [23ms]
+2025-02-18 15:32:14.602 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:32:14.602 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:32:27.103 [info] > git show --textconv :proto9x/usb.py [8ms]
+2025-02-18 15:32:27.104 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/usb.py [2ms]
+2025-02-18 15:32:27.113 [info] > git cat-file -s 7bdfed3bbe11e64ccacc6aa40e2b10293bd5ddf4 [1ms]
+2025-02-18 15:32:33.807 [info] > git config --get commit.template [2ms]
+2025-02-18 15:32:33.816 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:32:33.823 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:32:33.824 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:32:33.840 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:32:33.845 [info] > git status -z -uall [14ms]
+2025-02-18 15:33:25.818 [info] > git config --get commit.template [9ms]
+2025-02-18 15:33:25.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:33:25.827 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:33:25.829 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:33:25.845 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:33:25.850 [info] > git status -z -uall [14ms]
+2025-02-18 15:33:28.872 [info] > git show --textconv :proto9x/blobs_97.py [11ms]
+2025-02-18 15:33:28.873 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_97.py [3ms]
+2025-02-18 15:33:28.884 [info] > git cat-file -s 28ee9986d012b6bdf5c4804a4ad47eed77030d36 [3ms]
+2025-02-18 15:33:29.561 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_97.py [7ms]
+2025-02-18 15:33:30.882 [info] > git config --get commit.template [9ms]
+2025-02-18 15:33:30.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 15:33:30.891 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:33:30.893 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:33:30.911 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:33:30.916 [info] > git status -z -uall [16ms]
+2025-02-18 15:33:37.973 [info] > git show --textconv :proto9x/blobs_9d.py [2ms]
+2025-02-18 15:33:37.995 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_9d.py [2ms]
+2025-02-18 15:33:52.888 [info] > git config --get commit.template [9ms]
+2025-02-18 15:33:52.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:33:52.897 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:33:52.898 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:33:52.915 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:33:52.921 [info] > git status -z -uall [16ms]
+2025-02-18 15:34:42.459 [info] > git config --get commit.template [9ms]
+2025-02-18 15:34:42.460 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:34:42.469 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:34:42.470 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:34:42.487 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:34:42.492 [info] > git status -z -uall [14ms]
+2025-02-18 15:34:45.761 [info] > git show --textconv :proto9x/init_db.py [10ms]
+2025-02-18 15:34:45.763 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/init_db.py [3ms]
+2025-02-18 15:34:45.771 [info] > git cat-file -s d5488f86bcd970e9809036548bebb3b1b592e078 [1ms]
+2025-02-18 15:34:57.308 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:34:57.308 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:35:09.434 [info] > git show --textconv :proto9x/init_db.py [15ms]
+2025-02-18 15:35:09.437 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/init_db.py [4ms]
+2025-02-18 15:35:09.446 [info] > git cat-file -s d5488f86bcd970e9809036548bebb3b1b592e078 [1ms]
+2025-02-18 15:35:10.073 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/proto9x/init_db.py [7ms]
+2025-02-18 15:35:33.888 [info] > git config --get commit.template [10ms]
+2025-02-18 15:35:33.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 15:35:33.900 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:35:33.901 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:35:33.917 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-18 15:35:33.921 [info] > git status -z -uall [13ms]
+2025-02-18 15:37:29.567 [info] > git config --get commit.template [8ms]
+2025-02-18 15:37:29.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:37:29.576 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:37:29.577 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:37:29.593 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:37:29.604 [info] > git status -z -uall [20ms]
+2025-02-18 15:37:33.778 [info] > git show --textconv :validity-sensors-tools [9ms]
+2025-02-18 15:37:33.779 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [2ms]
+2025-02-18 15:37:33.788 [info] > git cat-file -s 35571650abb61df8837f373a0b0b4aee7115d43b [2ms]
+2025-02-18 15:37:53.944 [info] > git config --get commit.template [8ms]
+2025-02-18 15:37:53.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-18 15:37:53.952 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:37:53.953 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 15:37:53.969 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:37:53.974 [info] > git status -z -uall [13ms]
+2025-02-18 15:38:43.051 [info] > git config --get commit.template [9ms]
+2025-02-18 15:38:43.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 15:38:43.063 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:38:43.066 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:38:43.085 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:38:43.090 [info] > git status -z -uall [14ms]
+2025-02-18 15:39:24.943 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:39:24.943 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:40:01.319 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:40:01.319 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:40:43.031 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:40:43.031 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:40:50.421 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:40:50.421 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:41:01.094 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:41:01.094 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:41:02.843 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:41:02.843 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:41:13.280 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:41:13.280 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:41:17.146 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:41:17.146 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:41:24.769 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 15:41:24.769 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:41:31.317 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:41:31.317 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:41:32.852 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 15:41:32.852 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:41:34.299 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:41:34.299 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:41:36.966 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:41:36.966 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:45:11.875 [info] > git show --textconv :validity-sensors-tools [7ms]
+2025-02-18 15:45:11.876 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [1ms]
+2025-02-18 15:45:11.883 [info] > git cat-file -s 35571650abb61df8837f373a0b0b4aee7115d43b [1ms]
+2025-02-18 15:48:56.452 [info] > git show --textconv :proto9x/blobs_97.py [14ms]
+2025-02-18 15:48:56.454 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_97.py [3ms]
+2025-02-18 15:48:56.470 [info] > git cat-file -s 28ee9986d012b6bdf5c4804a4ad47eed77030d36 [3ms]
+2025-02-18 15:49:04.865 [info] > git show --textconv :proto9x/blobs_9d.py [16ms]
+2025-02-18 15:49:04.867 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_9d.py [4ms]
+2025-02-18 15:49:17.234 [info] > git show --textconv :proto9x/blobs_97.py [17ms]
+2025-02-18 15:49:17.236 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_97.py [6ms]
+2025-02-18 15:49:17.252 [info] > git cat-file -s 28ee9986d012b6bdf5c4804a4ad47eed77030d36 [3ms]
+2025-02-18 15:49:41.659 [info] > git show --textconv :proto9x/blobs_9d.py [7ms]
+2025-02-18 15:49:41.661 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_9d.py [3ms]
+2025-02-18 15:49:49.643 [info] > git config --get commit.template [9ms]
+2025-02-18 15:49:49.644 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:49:49.651 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:49:49.653 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:49:49.670 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:49:49.676 [info] > git status -z -uall [16ms]
+2025-02-18 15:51:13.622 [info] > git config --get commit.template [11ms]
+2025-02-18 15:51:13.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 15:51:13.631 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:51:13.633 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:51:13.654 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:51:13.664 [info] > git status -z -uall [21ms]
+2025-02-18 15:51:15.913 [info] > git show --textconv :proto9x/util.py [10ms]
+2025-02-18 15:51:15.914 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/util.py [1ms]
+2025-02-18 15:51:15.922 [info] > git cat-file -s f19131b83e86fdd91079bcd5a6ba94d86aa0a540 [1ms]
+2025-02-18 15:51:18.305 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/proto9x/util.py [7ms]
+2025-02-18 15:51:46.561 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:51:46.561 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:51:59.704 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 15:51:59.704 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:52:05.402 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:52:05.402 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:52:17.240 [info] > git show --textconv :proto9x/util.py [7ms]
+2025-02-18 15:52:17.241 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/util.py [2ms]
+2025-02-18 15:52:17.249 [info] > git cat-file -s f19131b83e86fdd91079bcd5a6ba94d86aa0a540 [2ms]
+2025-02-18 15:52:22.417 [info] > git config --get commit.template [21ms]
+2025-02-18 15:52:22.421 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-02-18 15:52:22.441 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:52:22.445 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-02-18 15:52:22.471 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:52:22.478 [info] > git status -z -uall [19ms]
+2025-02-18 15:53:06.546 [info] > git config --get commit.template [10ms]
+2025-02-18 15:53:06.547 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 15:53:06.554 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 15:53:06.556 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 15:53:06.573 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 15:53:06.578 [info] > git status -z -uall [15ms]
+2025-02-18 15:53:08.927 [info] > git show --textconv :proto9x/sensor.py [9ms]
+2025-02-18 15:53:08.928 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/sensor.py [1ms]
+2025-02-18 15:53:08.938 [info] > git cat-file -s 4754ddb11ea573b44b94b90a990267604d369d16 [2ms]
+2025-02-18 15:53:41.386 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:53:41.386 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:54:03.517 [info] > git show --textconv :proto9x/sensor.py [10ms]
+2025-02-18 15:54:03.519 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/sensor.py [2ms]
+2025-02-18 15:54:03.530 [info] > git cat-file -s 4754ddb11ea573b44b94b90a990267604d369d16 [2ms]
+2025-02-18 15:54:07.685 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:54:07.685 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:54:19.530 [info] > git show --textconv :proto9x/sensor.py [9ms]
+2025-02-18 15:54:19.531 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/sensor.py [2ms]
+2025-02-18 15:54:19.596 [info] > git cat-file -s 4754ddb11ea573b44b94b90a990267604d369d16 [1ms]
+2025-02-18 15:54:22.805 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 15:54:22.805 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Downloads/python-validity'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Downloads/python-validity
+2025-02-18 15:54:47.211 [info] > git show --textconv :proto9x/sensor.py [10ms]
+2025-02-18 15:54:47.213 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/sensor.py [2ms]
+2025-02-18 15:54:47.222 [info] > git cat-file -s 4754ddb11ea573b44b94b90a990267604d369d16 [2ms]
+2025-02-18 16:04:38.985 [info] > git show --textconv :proto9x/blobs_9d.py [25ms]
+2025-02-18 16:04:38.988 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/blobs_9d.py [6ms]
+2025-02-18 16:08:29.381 [info] > git show --textconv :validity-sensors-tools [9ms]
+2025-02-18 16:08:29.381 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [2ms]
+2025-02-18 16:08:29.390 [info] > git cat-file -s 35571650abb61df8837f373a0b0b4aee7115d43b [2ms]
+2025-02-18 16:09:37.439 [info] > git show --textconv :proto9x/sensor.py [10ms]
+2025-02-18 16:09:37.440 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/sensor.py [3ms]
+2025-02-18 16:09:37.448 [info] > git cat-file -s 4754ddb11ea573b44b94b90a990267604d369d16 [1ms]
+2025-02-18 16:11:42.807 [info] > git config --get commit.template [9ms]
+2025-02-18 16:11:42.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 16:11:42.819 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:11:42.821 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 16:11:42.845 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 16:11:42.850 [info] > git status -z -uall [18ms]
+2025-02-18 16:12:10.226 [info] > git config --get commit.template [21ms]
+2025-02-18 16:12:10.229 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 16:12:10.247 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:12:10.251 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 16:12:10.293 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 16:12:10.301 [info] > git status -z -uall [32ms]
+2025-02-18 16:12:12.552 [info] > git show --textconv :proto9x/flash.py [8ms]
+2025-02-18 16:12:12.553 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/flash.py [2ms]
+2025-02-18 16:12:12.563 [info] > git cat-file -s 7c79a2ca0fe399d8c676323bec97a64d14a83e50 [2ms]
+2025-02-18 16:12:56.501 [info] > git config --get commit.template [10ms]
+2025-02-18 16:12:56.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 16:12:56.510 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:12:56.511 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 16:12:56.527 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 16:12:56.531 [info] > git status -z -uall [13ms]
+2025-02-18 16:13:34.993 [info] > git config --get commit.template [9ms]
+2025-02-18 16:13:34.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 16:13:35.002 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:13:35.004 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 16:13:35.021 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 16:13:35.028 [info] > git status -z -uall [18ms]
+2025-02-18 16:14:00.383 [info] > git show --textconv :proto9x/sensor.py [10ms]
+2025-02-18 16:14:00.384 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/sensor.py [3ms]
+2025-02-18 16:14:00.393 [info] > git cat-file -s 4754ddb11ea573b44b94b90a990267604d369d16 [2ms]
+2025-02-18 16:14:17.359 [info] > git config --get commit.template [9ms]
+2025-02-18 16:14:17.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 16:14:17.366 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:14:17.367 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 16:14:17.384 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 16:14:17.389 [info] > git status -z -uall [14ms]
+2025-02-18 16:14:53.689 [info] > git config --get commit.template [10ms]
+2025-02-18 16:14:53.690 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 16:14:53.698 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:14:53.699 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 16:14:53.716 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-18 16:14:53.721 [info] > git status -z -uall [15ms]
+2025-02-18 16:14:58.778 [info] > git config --get commit.template [21ms]
+2025-02-18 16:14:58.781 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 16:14:58.798 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:14:58.799 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 16:14:58.815 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 16:14:58.819 [info] > git status -z -uall [13ms]
+2025-02-18 16:16:25.551 [info] > git config --get commit.template [10ms]
+2025-02-18 16:16:25.552 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 16:16:25.563 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:16:25.565 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 16:16:25.590 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 16:16:25.595 [info] > git status -z -uall [19ms]
+2025-02-18 16:17:20.972 [info] > git config --get commit.template [10ms]
+2025-02-18 16:17:20.973 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 16:17:20.980 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:17:20.981 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 16:17:20.996 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 16:17:21.000 [info] > git status -z -uall [12ms]
+2025-02-18 16:17:44.106 [info] > git config --get commit.template [7ms]
+2025-02-18 16:17:44.107 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-18 16:17:44.114 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:17:44.115 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 16:17:44.132 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 16:17:44.136 [info] > git status -z -uall [14ms]
+2025-02-18 16:20:46.878 [info] > git config --get commit.template [9ms]
+2025-02-18 16:20:46.879 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 16:20:46.886 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:20:46.887 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 16:20:46.903 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 16:20:46.908 [info] > git status -z -uall [14ms]
+2025-02-18 16:21:55.613 [info] > git config --get commit.template [9ms]
+2025-02-18 16:21:55.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 16:21:55.621 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 16:21:55.622 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 16:21:55.638 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 16:21:55.642 [info] > git status -z -uall [13ms]
+2025-02-18 16:23:23.906 [info] > git show --textconv :proto9x/init_flash.py [12ms]
+2025-02-18 16:23:23.908 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/init_flash.py [2ms]
+2025-02-18 16:23:23.916 [info] > git cat-file -s 25e7d4b01497053ce055e5a5f701d184d4b50738 [1ms]
+2025-02-18 17:22:29.033 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-18 17:22:29.053 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-02-18 17:22:29.073 [info] [Model][openRepository] Opened repository: /home/alexandru/Downloads/3/python-validity
+2025-02-18 17:22:29.096 [info] > git config --get commit.template [3ms]
+2025-02-18 17:22:29.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 17:22:29.127 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/3/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 17:22:29.129 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 17:22:29.153 [info] > git status -z -uall [13ms]
+2025-02-18 17:22:29.156 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-18 17:22:29.189 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-02-18 17:22:29.202 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2025-02-18 17:22:29.202 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-18 17:22:29.212 [info] > git config --get commit.template [24ms]
+2025-02-18 17:22:29.222 [info] > git reflog master --grep-reflog=branch: Created from *. [11ms]
+2025-02-18 17:22:29.232 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2025-02-18 17:22:29.241 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/3/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 17:22:29.243 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 17:22:29.262 [info] > git status -z -uall [10ms]
+2025-02-18 17:22:29.264 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 17:22:29.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-02-18 17:22:29.290 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2025-02-18 17:22:29.290 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-18 17:22:29.300 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [68ms]
+2025-02-18 17:22:29.310 [info] > git reflog master --grep-reflog=branch: Created from *. [10ms]
+2025-02-18 17:22:29.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [10ms]
+2025-02-18 17:22:29.329 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [11ms]
+2025-02-18 17:22:29.339 [info] > git config --local branch.master.vscode-merge-base origin/master [11ms]
+2025-02-18 17:22:29.349 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [11ms]
+2025-02-18 17:22:29.359 [info] > git config --get commit.template [11ms]
+2025-02-18 17:22:29.369 [info] > git config --local branch.master.vscode-merge-base origin/master [11ms]
+2025-02-18 17:22:29.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2025-02-18 17:22:29.389 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/3/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 17:22:29.389 [info] > git config --get commit.template [11ms]
+2025-02-18 17:22:29.402 [info] > git rev-parse refs/remotes/origin/master [13ms]
+2025-02-18 17:22:29.438 [info] > git merge-base refs/heads/master refs/remotes/origin/master [11ms]
+2025-02-18 17:22:29.448 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+2025-02-18 17:22:29.459 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [57ms]
+2025-02-18 17:22:29.471 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/3/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 17:22:29.472 [info] > git config --local branch.master.vscode-merge-base [14ms]
+2025-02-18 17:22:29.484 [info] > git diff --name-status -z --diff-filter=ADMR af1fc60be7ce4e8c607f488344394b2453604b55...refs/remotes/origin/master [36ms]
+2025-02-18 17:22:29.487 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2025-02-18 17:22:29.488 [info] > git rev-parse refs/remotes/origin/master [17ms]
+2025-02-18 17:22:29.511 [info] > git status -z -uall [12ms]
+2025-02-18 17:22:29.514 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 17:22:29.760 [info] > git check-ignore -v -z --stdin [41ms]
+2025-02-18 17:22:29.762 [info] > git check-ignore -v -z --stdin [24ms]
+2025-02-18 17:22:29.763 [info] > git check-ignore -v -z --stdin [5ms]
+2025-02-18 17:24:53.043 [info] > git config --get commit.template [23ms]
+2025-02-18 17:24:53.046 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 17:24:53.059 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/3/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 17:24:53.061 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 17:24:53.080 [info] > git status -z -uall [10ms]
+2025-02-18 17:24:53.083 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-18 17:28:14.992 [info] > git config --get commit.template [25ms]
+2025-02-18 17:28:14.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 17:28:15.016 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 17:28:15.020 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 17:28:15.062 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 17:28:15.078 [info] > git status -z -uall [38ms]
+2025-02-18 17:28:22.962 [info] > git check-ignore -v -z --stdin [5ms]
+2025-02-18 17:28:30.662 [info] > git check-ignore -v -z --stdin [5ms]
+2025-02-18 17:28:37.249 [info] > git show --textconv :proto9x/sensor.py [23ms]
+2025-02-18 17:28:37.254 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/sensor.py [8ms]
+2025-02-18 17:28:37.277 [info] > git cat-file -s 4754ddb11ea573b44b94b90a990267604d369d16 [5ms]
+2025-02-18 17:28:41.670 [info] > git show --textconv :proto9x/util.py [21ms]
+2025-02-18 17:28:41.673 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/util.py [5ms]
+2025-02-18 17:28:41.696 [info] > git cat-file -s f19131b83e86fdd91079bcd5a6ba94d86aa0a540 [4ms]
+2025-02-18 17:29:09.203 [info] > git config --get commit.template [20ms]
+2025-02-18 17:29:09.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-02-18 17:29:09.221 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 17:29:09.225 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 17:29:09.262 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 17:29:09.279 [info] > git status -z -uall [39ms]
+2025-02-18 17:29:46.008 [info] > git config --get commit.template [27ms]
+2025-02-18 17:29:46.011 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 17:29:46.032 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 17:29:46.036 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2025-02-18 17:29:46.069 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 17:29:46.077 [info] > git status -z -uall [22ms]
+2025-02-18 17:29:50.794 [info] > git show --textconv :proto9x/sensor.py [10ms]
+2025-02-18 17:29:50.796 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/proto9x/sensor.py [3ms]
+2025-02-18 17:29:50.808 [info] > git cat-file -s 4754ddb11ea573b44b94b90a990267604d369d16 [2ms]
+2025-02-18 17:29:56.722 [info] > git config --get commit.template [8ms]
+2025-02-18 17:29:56.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 17:29:56.731 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 17:29:56.732 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 17:29:56.753 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 17:29:56.759 [info] > git status -z -uall [19ms]
+2025-02-18 17:31:32.715 [info] > git config --get commit.template [2ms]
+2025-02-18 17:31:32.732 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 17:31:32.745 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 17:31:32.747 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 17:31:32.783 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 17:31:32.797 [info] > git status -z -uall [37ms]
+2025-02-18 17:31:40.866 [info] > git show --textconv :validity-sensors-tools [11ms]
+2025-02-18 17:31:40.868 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [2ms]
+2025-02-18 17:31:40.881 [info] > git cat-file -s 35571650abb61df8837f373a0b0b4aee7115d43b [2ms]
+2025-02-18 18:10:18.249 [info] > git show --textconv :setup.py [23ms]
+2025-02-18 18:10:18.252 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/setup.py [5ms]
+2025-02-18 18:10:18.275 [info] > git cat-file -s 0bd1606c6b0ce90e5fcbd6291ff696c7e606da26 [5ms]
+2025-02-18 18:10:26.484 [info] > git config --get commit.template [21ms]
+2025-02-18 18:10:26.488 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 18:10:26.506 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 18:10:26.510 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 18:10:26.552 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 18:10:26.569 [info] > git status -z -uall [40ms]
+2025-02-18 18:11:19.162 [info] > git config --get commit.template [24ms]
+2025-02-18 18:11:19.164 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 18:11:19.186 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 18:11:19.189 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 18:11:19.221 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 18:11:19.226 [info] > git status -z -uall [19ms]
+2025-02-18 18:11:49.534 [info] > git config --get commit.template [39ms]
+2025-02-18 18:11:49.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-02-18 18:11:49.599 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 18:11:49.605 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2025-02-18 18:11:49.670 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 18:11:49.695 [info] > git status -z -uall [62ms]
+2025-02-18 18:11:54.808 [info] > git config --get commit.template [22ms]
+2025-02-18 18:11:54.811 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 18:11:54.830 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 18:11:54.834 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 18:11:54.879 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 18:11:54.897 [info] > git status -z -uall [44ms]
+2025-02-18 18:11:57.853 [info] > git show --textconv :validity-sensors-tools [12ms]
+2025-02-18 18:11:57.854 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [2ms]
+2025-02-18 18:11:57.874 [info] > git cat-file -s 35571650abb61df8837f373a0b0b4aee7115d43b [5ms]
+2025-02-18 18:15:18.955 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-18 18:15:18.977 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-02-18 18:15:18.989 [info] [Model][openRepository] Opened repository: /home/alexandru/Downloads/2/open-fprintd
+2025-02-18 18:15:19.037 [warning] [Git][getHEAD] Failed to parse HEAD file: Repository is using reftable format.
+2025-02-18 18:15:19.039 [info] > git config --get commit.template [26ms]
+2025-02-18 18:15:19.042 [info] > git symbolic-ref --short HEAD [5ms]
+2025-02-18 18:15:19.042 [info] fatal: No such ref: HEAD
+2025-02-18 18:15:19.066 [info] > git rev-parse HEAD [5ms]
+2025-02-18 18:15:19.066 [info] fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2025-02-18 18:15:19.117 [info] > git status -z -uall [26ms]
+2025-02-18 18:15:19.123 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-02-18 18:15:19.151 [info] > git config --get commit.template [3ms]
+2025-02-18 18:15:19.151 [info] > git symbolic-ref --short HEAD [15ms]
+2025-02-18 18:15:19.151 [info] fatal: No such ref: HEAD
+2025-02-18 18:15:19.161 [info] > git rev-parse HEAD [1ms]
+2025-02-18 18:15:19.161 [info] fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2025-02-18 18:15:19.182 [info] > git status -z -uall [12ms]
+2025-02-18 18:15:19.184 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 18:15:19.686 [info] > git check-ignore -v -z --stdin [46ms]
+2025-02-18 18:15:19.687 [info] > git check-ignore -v -z --stdin [25ms]
+2025-02-18 18:15:19.688 [info] > git check-ignore -v -z --stdin [7ms]
+2025-02-18 18:17:03.599 [info] > git config --get commit.template [4ms]
+2025-02-18 18:17:03.599 [info] > git symbolic-ref --short HEAD [15ms]
+2025-02-18 18:17:03.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 18:17:03.622 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 18:17:03.623 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-02-18 18:17:03.640 [info] > git status -z -uall [9ms]
+2025-02-18 18:17:03.642 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 18:17:03.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 18:17:03.670 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2025-02-18 18:17:03.670 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-18 18:17:03.681 [info] > git reflog master --grep-reflog=branch: Created from *. [3ms]
+2025-02-18 18:17:03.692 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2025-02-18 18:17:03.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2025-02-18 18:17:03.714 [info] > git config --local branch.master.vscode-merge-base origin/master [2ms]
+2025-02-18 18:17:03.735 [info] > git symbolic-ref --short HEAD [11ms]
+2025-02-18 18:17:03.745 [info] > git config --get commit.template [11ms]
+2025-02-18 18:17:03.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-18 18:17:03.755 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 18:17:03.757 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 18:17:03.776 [info] > git status -z -uall [10ms]
+2025-02-18 18:17:03.778 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 18:17:03.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2025-02-18 18:17:03.812 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2025-02-18 18:17:03.821 [info] > git merge-base refs/heads/master refs/remotes/origin/master [22ms]
+2025-02-18 18:17:03.833 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [12ms]
+2025-02-18 18:17:03.853 [info] > git diff --name-status -z --diff-filter=ADMR 6250c540aa325620f1838d27d7a920347d17f8d0...refs/remotes/origin/master [21ms]
+2025-02-18 18:17:03.855 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2025-02-18 18:17:03.881 [info] > git diff --name-status -z --diff-filter=ADMR 6250c540aa325620f1838d27d7a920347d17f8d0...refs/remotes/origin/master [7ms]
+2025-02-18 18:21:57.861 [info] > git symbolic-ref --short HEAD [25ms]
+2025-02-18 18:21:57.883 [info] > git config --get commit.template [23ms]
+2025-02-18 18:21:57.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 18:21:57.908 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 18:21:57.911 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-02-18 18:21:57.935 [info] > git status -z -uall [11ms]
+2025-02-18 18:21:57.939 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 18:22:01.580 [info] > git check-ignore -v -z --stdin [5ms]
+2025-02-18 18:22:02.990 [info] > git symbolic-ref --short HEAD [22ms]
+2025-02-18 18:22:03.011 [info] > git config --get commit.template [23ms]
+2025-02-18 18:22:03.015 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 18:22:03.035 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 18:22:03.039 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 18:22:03.083 [info] > git status -z -uall [25ms]
+2025-02-18 18:22:03.092 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-02-18 18:22:05.238 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-18 18:22:06.710 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-18 18:22:09.188 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-18 18:22:12.728 [info] > git show --textconv :setup.py [10ms]
+2025-02-18 18:22:12.729 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/open-fprintd/setup.py [2ms]
+2025-02-18 18:22:12.739 [info] > git cat-file -s ec4e3ca649ff000a0d8dcbfbc00bc84908c575f0 [2ms]
+2025-02-18 18:22:46.669 [info] > git show --textconv :dbus_service/open-fprintd [22ms]
+2025-02-18 18:22:46.672 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/open-fprintd/dbus_service/open-fprintd [5ms]
+2025-02-18 18:22:46.695 [info] > git cat-file -s 7a576af154fdad442c4f3412cbf2976c575ca3f8 [5ms]
+2025-02-18 18:23:21.313 [info] > git blame --root --incremental 6250c540aa325620f1838d27d7a920347d17f8d0 -- /home/alexandru/Downloads/2/open-fprintd/dbus_service/open-fprintd [14ms]
+2025-02-18 18:23:33.440 [info] > git symbolic-ref --short HEAD [20ms]
+2025-02-18 18:23:33.458 [info] > git config --get commit.template [19ms]
+2025-02-18 18:23:33.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 18:23:33.478 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 18:23:33.482 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 18:23:33.527 [info] > git status -z -uall [26ms]
+2025-02-18 18:23:33.537 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-02-18 18:23:47.291 [info] > git symbolic-ref --short HEAD [21ms]
+2025-02-18 18:23:47.311 [info] > git config --get commit.template [23ms]
+2025-02-18 18:23:47.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-02-18 18:23:47.331 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 18:23:47.334 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-02-18 18:23:47.369 [info] > git status -z -uall [19ms]
+2025-02-18 18:23:47.374 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-18 18:26:02.817 [info] > git symbolic-ref --short HEAD [24ms]
+2025-02-18 18:26:02.838 [info] > git config --get commit.template [24ms]
+2025-02-18 18:26:02.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 18:26:02.861 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 18:26:02.865 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 18:26:02.902 [info] > git status -z -uall [18ms]
+2025-02-18 18:26:02.905 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-18 18:28:10.144 [info] > git symbolic-ref --short HEAD [20ms]
+2025-02-18 18:28:10.166 [info] > git config --get commit.template [24ms]
+2025-02-18 18:28:10.170 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 18:28:10.189 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 18:28:10.193 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 18:28:10.238 [info] > git status -z -uall [24ms]
+2025-02-18 18:28:10.248 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-02-18 18:28:20.986 [info] > git symbolic-ref --short HEAD [22ms]
+2025-02-18 18:28:21.005 [info] > git config --get commit.template [21ms]
+2025-02-18 18:28:21.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 18:28:21.027 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 18:28:21.031 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 18:28:21.070 [info] > git status -z -uall [21ms]
+2025-02-18 18:28:21.075 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-18 18:30:44.288 [info] > git symbolic-ref --short HEAD [24ms]
+2025-02-18 18:30:44.310 [info] > git config --get commit.template [22ms]
+2025-02-18 18:30:44.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 18:30:44.331 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 18:30:44.335 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 18:30:44.358 [info] > git status -z -uall [10ms]
+2025-02-18 18:30:44.362 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]

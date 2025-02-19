@@ -1,0 +1,282 @@
+2025-02-18 13:01:39.661 [info] [main] Log level: Info
+2025-02-18 13:01:39.661 [info] [main] Validating found git in: "git"
+2025-02-18 13:01:39.661 [info] [main] Using git "2.47.2" from "git"
+2025-02-18 13:01:39.661 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-18 13:01:39.661 [info] > git rev-parse --show-toplevel [14ms]
+2025-02-18 13:01:39.661 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.661 [info] > git rev-parse --show-toplevel [12ms]
+2025-02-18 13:01:39.661 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.672 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 13:01:39.672 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.681 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 13:01:39.681 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.689 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 13:01:39.689 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.697 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 13:01:39.697 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.705 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 13:01:39.705 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.714 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 13:01:39.714 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.722 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 13:01:39.722 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.731 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 13:01:39.731 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.740 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 13:01:39.740 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.749 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 13:01:39.749 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.761 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-18 13:01:39.761 [info] fatal: detected dubious ownership in repository at '/home/alexandru/Tokyonight-GTK-Theme'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/Tokyonight-GTK-Theme
+2025-02-18 13:01:39.771 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 13:01:39.780 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-02-18 13:01:39.805 [info] [Model][openRepository] Opened repository: /home/alexandru/foot
+2025-02-18 13:01:39.833 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-18 13:01:39.833 [info] > git config --get commit.template [14ms]
+2025-02-18 13:01:39.856 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2025-02-18 13:01:39.864 [info] [Model][openRepository] Opened repository: /home/alexandru/open-fprintd
+2025-02-18 13:01:39.881 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2025-02-18 13:01:39.889 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/foot/.git/refs/remotes/origin/main'
+2025-02-18 13:01:39.890 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-18 13:01:39.890 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:01:39.891 [info] > git config --get commit.template [17ms]
+2025-02-18 13:01:39.902 [info] > git rev-parse refs/remotes/origin/main [13ms]
+2025-02-18 13:01:39.935 [info] > git status -z -uall [23ms]
+2025-02-18 13:01:39.936 [info] > git rev-parse --show-toplevel [34ms]
+2025-02-18 13:01:39.936 [info] fatal: detected dubious ownership in repository at '/home/alexandru/swaywm-dotfiles'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/alexandru/swaywm-dotfiles
+2025-02-18 13:01:39.944 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (2)
+2025-02-18 13:01:39.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2025-02-18 13:01:39.945 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+2025-02-18 13:01:39.973 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 13:01:39.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-02-18 13:01:39.993 [info] > git config --get commit.template [11ms]
+2025-02-18 13:01:39.993 [info] > git rev-parse refs/remotes/origin/master [20ms]
+2025-02-18 13:01:40.014 [info] > git status -z -uall [13ms]
+2025-02-18 13:01:40.014 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-18 13:01:40.031 [info] > git config --local branch.main.vscode-merge-base [40ms]
+2025-02-18 13:01:40.127 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [87ms]
+2025-02-18 13:01:40.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [135ms]
+2025-02-18 13:01:40.175 [info] > git config --local branch.master.vscode-merge-base [7ms]
+2025-02-18 13:01:40.182 [info] > git merge-base refs/heads/main refs/remotes/origin/main [46ms]
+2025-02-18 13:01:40.190 [info] > git config --get commit.template [64ms]
+2025-02-18 13:01:40.190 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [73ms]
+2025-02-18 13:01:40.198 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/foot/.git/refs/remotes/origin/main'
+2025-02-18 13:01:40.199 [info] > git diff --name-status -z --diff-filter=ADMR 962ff1a5b6387bc5419e9788a773a080eea5f1e1...refs/remotes/origin/main [9ms]
+2025-02-18 13:01:40.199 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [17ms]
+2025-02-18 13:01:40.218 [info] > git merge-base refs/heads/master refs/remotes/origin/master [9ms]
+2025-02-18 13:01:40.225 [info] > git rev-parse refs/remotes/origin/main [27ms]
+2025-02-18 13:01:40.240 [info] > git status -z -uall [9ms]
+2025-02-18 13:01:40.240 [info] > git diff --name-status -z --diff-filter=ADMR c26b46dcf2a681062118f0d8d7b0589a880afbee...refs/remotes/origin/master [15ms]
+2025-02-18 13:01:40.241 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2025-02-18 13:01:40.249 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 13:01:40.249 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-02-18 13:01:40.254 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2025-02-18 13:01:40.270 [info] > git status -z -uall [8ms]
+2025-02-18 13:01:40.271 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 13:01:40.410 [info] > git check-ignore -v -z --stdin [10ms]
+2025-02-18 13:01:40.411 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-18 13:02:14.443 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 13:02:14.443 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:02:14.631 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 13:02:14.631 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:02:14.705 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 13:02:14.705 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-18 13:11:49.563 [info] > git config --get commit.template [28ms]
+2025-02-18 13:11:49.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2025-02-18 13:11:49.608 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/open-fprintd/.git/refs/remotes/origin/master'
+2025-02-18 13:11:49.614 [info] > git rev-parse refs/remotes/origin/master [7ms]
+2025-02-18 13:11:49.660 [info] > git status -z -uall [22ms]
+2025-02-18 13:11:49.663 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-18 13:17:20.179 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-18 13:17:20.198 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-02-18 13:17:20.211 [info] [Model][openRepository] Opened repository: /home/alexandru/Downloads/libfprint-tod-vfs0090
+2025-02-18 13:17:20.236 [info] > git config --get commit.template [4ms]
+2025-02-18 13:17:20.255 [warning] [Git][getHEAD] Failed to parse HEAD file: Repository is using reftable format.
+2025-02-18 13:17:20.320 [info] > git symbolic-ref --short HEAD [64ms]
+2025-02-18 13:17:20.320 [info] fatal: No such ref: HEAD
+2025-02-18 13:17:20.338 [info] > git rev-parse HEAD [3ms]
+2025-02-18 13:17:20.338 [info] fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2025-02-18 13:17:20.372 [info] > git status -z -uall [18ms]
+2025-02-18 13:17:20.375 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-18 13:17:20.422 [info] > git config --get commit.template [7ms]
+2025-02-18 13:17:20.422 [info] > git symbolic-ref --short HEAD [24ms]
+2025-02-18 13:17:20.422 [info] fatal: No such ref: HEAD
+2025-02-18 13:17:20.441 [info] > git rev-parse HEAD [4ms]
+2025-02-18 13:17:20.441 [info] fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2025-02-18 13:17:20.474 [info] > git status -z -uall [18ms]
+2025-02-18 13:17:20.476 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-18 13:17:20.849 [info] > git check-ignore -v -z --stdin [20ms]
+2025-02-18 13:17:20.850 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-18 13:24:38.988 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-18 13:24:39.009 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-02-18 13:24:39.027 [info] [Model][openRepository] Opened repository: /home/alexandru/Downloads/2/python-validity
+2025-02-18 13:24:39.081 [warning] [Git][getHEAD] Failed to parse HEAD file: Repository is using reftable format.
+2025-02-18 13:24:39.084 [info] > git config --get commit.template [27ms]
+2025-02-18 13:24:39.086 [info] > git symbolic-ref --short HEAD [4ms]
+2025-02-18 13:24:39.086 [info] fatal: No such ref: HEAD
+2025-02-18 13:24:39.108 [info] > git rev-parse HEAD [4ms]
+2025-02-18 13:24:39.108 [info] fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2025-02-18 13:24:39.135 [info] > git status -z -uall [11ms]
+2025-02-18 13:24:39.141 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-02-18 13:24:39.162 [info] > git config --get commit.template [2ms]
+2025-02-18 13:24:39.162 [info] > git symbolic-ref --short HEAD [10ms]
+2025-02-18 13:24:39.163 [info] fatal: No such ref: HEAD
+2025-02-18 13:24:39.173 [info] > git rev-parse HEAD [2ms]
+2025-02-18 13:24:39.174 [info] fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2025-02-18 13:24:39.191 [info] > git status -z -uall [9ms]
+2025-02-18 13:24:39.193 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-18 13:24:39.657 [info] > git check-ignore -v -z --stdin [9ms]
+2025-02-18 13:24:39.658 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-18 13:28:08.717 [info] > git symbolic-ref --short HEAD [29ms]
+2025-02-18 13:28:08.728 [info] > git config --get commit.template [12ms]
+2025-02-18 13:28:08.776 [info] > git config --get commit.template [69ms]
+2025-02-18 13:28:08.776 [info] > git symbolic-ref --short HEAD [78ms]
+2025-02-18 13:28:08.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [58ms]
+2025-02-18 13:28:08.793 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/libfprint-tod-vfs0090/.git/refs/remotes/origin/master'
+2025-02-18 13:28:08.794 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-02-18 13:28:08.801 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 13:28:08.802 [info] > git rev-parse refs/remotes/origin/master [9ms]
+2025-02-18 13:28:08.819 [info] > git status -z -uall [10ms]
+2025-02-18 13:28:08.819 [info] > git rev-parse refs/remotes/origin/master [18ms]
+2025-02-18 13:28:08.837 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2025-02-18 13:28:08.852 [info] > git status -z -uall [25ms]
+2025-02-18 13:28:08.852 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+2025-02-18 13:28:08.883 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 13:28:08.894 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [45ms]
+2025-02-18 13:28:08.920 [info] > git config --local branch.master.vscode-merge-base [14ms]
+2025-02-18 13:28:08.920 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-18 13:28:08.934 [info] > git config --local branch.master.vscode-merge-base [41ms]
+2025-02-18 13:28:08.934 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-18 13:28:08.948 [info] > git reflog master --grep-reflog=branch: Created from *. [14ms]
+2025-02-18 13:28:09.058 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [100ms]
+2025-02-18 13:28:09.066 [info] > git reflog master --grep-reflog=branch: Created from *. [120ms]
+2025-02-18 13:28:09.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [10ms]
+2025-02-18 13:28:09.084 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms]
+2025-02-18 13:28:09.092 [info] > git config --local branch.master.vscode-merge-base origin/master [9ms]
+2025-02-18 13:28:09.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [16ms]
+2025-02-18 13:28:09.117 [info] > git config --get commit.template [9ms]
+2025-02-18 13:28:09.117 [info] > git symbolic-ref --short HEAD [17ms]
+2025-02-18 13:28:09.126 [info] > git config --local branch.master.vscode-merge-base origin/master [10ms]
+2025-02-18 13:28:09.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2025-02-18 13:28:09.169 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/libfprint-tod-vfs0090/.git/refs/remotes/origin/master'
+2025-02-18 13:28:09.170 [info] > git symbolic-ref --short HEAD [33ms]
+2025-02-18 13:28:09.188 [info] > git rev-parse refs/remotes/origin/master [19ms]
+2025-02-18 13:28:09.221 [info] > git config --get commit.template [70ms]
+2025-02-18 13:28:09.225 [info] > git status -z -uall [22ms]
+2025-02-18 13:28:09.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [40ms]
+2025-02-18 13:28:09.242 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 13:28:09.244 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [24ms]
+2025-02-18 13:28:09.291 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2025-02-18 13:28:09.309 [info] > git rev-parse refs/remotes/origin/master [66ms]
+2025-02-18 13:28:09.344 [info] > git config --local branch.master.vscode-merge-base [36ms]
+2025-02-18 13:28:09.361 [info] > git merge-base refs/heads/master refs/remotes/origin/master [75ms]
+2025-02-18 13:28:09.381 [info] > git status -z -uall [56ms]
+2025-02-18 13:28:09.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [21ms]
+2025-02-18 13:28:09.402 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [61ms]
+2025-02-18 13:28:09.472 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2025-02-18 13:28:09.491 [info] > git merge-base refs/heads/master refs/remotes/origin/master [90ms]
+2025-02-18 13:28:09.509 [info] > git diff --name-status -z --diff-filter=ADMR 6084a1545589beec0c741200b18b0902cca225ba...refs/remotes/origin/master [131ms]
+2025-02-18 13:28:09.637 [info] > git diff --name-status -z --diff-filter=ADMR 6084a1545589beec0c741200b18b0902cca225ba...refs/remotes/origin/master [128ms]
+2025-02-18 13:28:09.637 [info] > git config --local branch.master.vscode-merge-base [147ms]
+2025-02-18 13:28:09.644 [info] > git merge-base refs/heads/master refs/remotes/origin/master [176ms]
+2025-02-18 13:28:09.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [10ms]
+2025-02-18 13:28:09.666 [info] > git diff --name-status -z --diff-filter=ADMR 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f...refs/remotes/origin/master [14ms]
+2025-02-18 13:28:09.668 [info] > git merge-base refs/heads/master refs/remotes/origin/master [4ms]
+2025-02-18 13:28:09.680 [info] > git diff --name-status -z --diff-filter=ADMR 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f...refs/remotes/origin/master [2ms]
+2025-02-18 13:33:08.359 [info] > git symbolic-ref --short HEAD [71ms]
+2025-02-18 13:33:08.385 [info] > git config --get commit.template [30ms]
+2025-02-18 13:33:08.386 [info] > git config --get commit.template [50ms]
+2025-02-18 13:33:08.386 [info] > git symbolic-ref --short HEAD [73ms]
+2025-02-18 13:33:08.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2025-02-18 13:33:08.426 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/libfprint-tod-vfs0090/.git/refs/remotes/origin/master'
+2025-02-18 13:33:08.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2025-02-18 13:33:08.449 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 13:33:08.450 [info] > git rev-parse refs/remotes/origin/master [24ms]
+2025-02-18 13:33:08.492 [info] > git status -z -uall [23ms]
+2025-02-18 13:33:08.493 [info] > git rev-parse refs/remotes/origin/master [45ms]
+2025-02-18 13:33:08.590 [info] > git status -z -uall [21ms]
+2025-02-18 13:33:08.591 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [100ms]
+2025-02-18 13:33:08.601 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-02-18 13:46:40.142 [info] > git symbolic-ref --short HEAD [26ms]
+2025-02-18 13:46:40.163 [info] > git config --get commit.template [24ms]
+2025-02-18 13:46:40.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 13:46:40.186 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 13:46:40.190 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 13:46:40.236 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 13:46:40.250 [info] > git status -z -uall [41ms]
+2025-02-18 13:49:31.006 [info] > git symbolic-ref --short HEAD [27ms]
+2025-02-18 13:49:31.031 [info] > git config --get commit.template [28ms]
+2025-02-18 13:49:31.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 13:49:31.055 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 13:49:31.060 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2025-02-18 13:49:31.106 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 13:49:31.124 [info] > git status -z -uall [43ms]
+2025-02-18 14:04:25.122 [info] > git config --get commit.template [9ms]
+2025-02-18 14:04:25.122 [info] > git symbolic-ref --short HEAD [26ms]
+2025-02-18 14:04:25.147 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-02-18 14:04:25.160 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:04:25.164 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-02-18 14:04:25.207 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-02-18 14:04:25.217 [info] > git status -z -uall [40ms]
+2025-02-18 14:05:40.447 [info] > git symbolic-ref --short HEAD [24ms]
+2025-02-18 14:05:40.475 [info] > git config --get commit.template [31ms]
+2025-02-18 14:05:40.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-02-18 14:05:40.498 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:05:40.501 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 14:05:40.540 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-18 14:05:40.555 [info] > git status -z -uall [32ms]
+2025-02-18 14:07:47.819 [info] > git symbolic-ref --short HEAD [24ms]
+2025-02-18 14:07:47.841 [info] > git config --get commit.template [24ms]
+2025-02-18 14:07:47.845 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-02-18 14:07:47.863 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:07:47.867 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-02-18 14:07:47.902 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-18 14:07:47.911 [info] > git status -z -uall [25ms]
+2025-02-18 14:24:02.206 [info] > git config --get commit.template [2ms]
+2025-02-18 14:24:02.206 [info] > git symbolic-ref --short HEAD [14ms]
+2025-02-18 14:24:02.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-18 14:24:02.225 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:24:02.227 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-02-18 14:24:02.246 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 14:24:02.251 [info] > git status -z -uall [16ms]
+2025-02-18 14:24:07.306 [info] > git symbolic-ref --short HEAD [24ms]
+2025-02-18 14:24:07.325 [info] > git config --get commit.template [20ms]
+2025-02-18 14:24:07.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 14:24:07.346 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:24:07.349 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-02-18 14:24:07.388 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-18 14:24:07.401 [info] > git status -z -uall [35ms]
+2025-02-18 14:24:15.441 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-18 14:24:16.676 [info] > git check-ignore -v -z --stdin [5ms]
+2025-02-18 14:24:20.425 [info] > git show --textconv :validity-sensors-tools [13ms]
+2025-02-18 14:24:20.427 [info] > git ls-files --stage -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [3ms]
+2025-02-18 14:24:20.441 [info] > git cat-file -s 35571650abb61df8837f373a0b0b4aee7115d43b [3ms]
+2025-02-18 14:24:25.887 [info] > git blame --root --incremental 5ba2094f8cf5fd17943c9c4e32b6e95b54d3b97f -- /home/alexandru/Downloads/2/python-validity/validity-sensors-tools [37ms]
+2025-02-18 14:24:47.762 [info] > git symbolic-ref --short HEAD [22ms]
+2025-02-18 14:24:47.782 [info] > git config --get commit.template [24ms]
+2025-02-18 14:24:47.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-18 14:24:47.806 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:24:47.810 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2025-02-18 14:24:47.854 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-18 14:24:47.867 [info] > git status -z -uall [39ms]
+2025-02-18 14:31:28.062 [info] > git config --get commit.template [5ms]
+2025-02-18 14:31:28.063 [info] > git symbolic-ref --short HEAD [25ms]
+2025-02-18 14:31:28.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-18 14:31:28.101 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/alexandru/Downloads/2/python-validity/.git/refs/remotes/origin/master'
+2025-02-18 14:31:28.104 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2025-02-18 14:31:28.146 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-18 14:31:28.159 [info] > git status -z -uall [39ms]
