@@ -108,3 +108,5 @@ exec sway
 Please look over the `~/.config/sway/config` file so you can see the basic key bindings. Use MOD+ALT+R to reload sway to apply changes without restarting the session. 
 
 Enjoy your **minimalist but powerful** Wayland setup! 🚀
+
+Modified/Adapted(for Alpine)/Improved version of [this](https://github.com/hidayry/swaywm-dotfiles) repo.
