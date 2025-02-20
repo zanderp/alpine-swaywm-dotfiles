@@ -38,6 +38,7 @@ Here are some screenshots of the setup:
 ![Screenshot 5](./screenshots/5.png)
 ![Screenshot 6](./screenshots/6.png)
 ![Screenshot 7](./screenshots/7.png)
+![Screenshot 8](./screenshots/8.png)
 
 ---
 
